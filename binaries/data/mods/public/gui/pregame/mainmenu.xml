@@ -260,7 +260,7 @@ Status: $status.
 					size="0 0 100% 28"
 					tooltip_style="pgToolTip"
 					tooltip="Adjust game settings. [NOT YET IMPLEMENTED]"
-					enabled="false"
+					enabled="true"
 				>
 					Options
 					<action on="Press">

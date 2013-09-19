@@ -426,7 +426,6 @@ bool CConfigDB::WriteFile(EConfigNamespace ns, const VfsPath& path)
 		debug_warn(L"CConfigDB: Invalid ns value");
 		return false;
 	}
-
 	shared_ptr<u8> buf;
 	AllocateAligned(buf, 1*MiB, maxSectorSize);
 	char* pos = (char*)buf.get();
